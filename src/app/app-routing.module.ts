@@ -8,6 +8,7 @@ import { TutoComponent } from './Demo/tuto/tuto.component';
 import { Shoppinglistv1Component } from './Demo/correctif/shoppinglistv1/shoppinglistv1.component';
 import { PipesComponent } from './Demo/pipes/pipes.component';
 import { ChronopipeComponent } from './Demo/correctif/chronopipe/chronopipe.component';
+import { InputoutputComponent } from './Demo/inputoutput/inputoutput.component';
 const routes: Routes = [
   { path: "", component: HomeComponent },//Charge le composant
   { path: "Bindings", component: BindingsComponent },
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path : "Tuto", component: TutoComponent},
   {path : "shoppingv1", component : Shoppinglistv1Component},
   {path : 'pipes', component : PipesComponent},
-  {path : 'chronopipe', component : ChronopipeComponent}
+  {path : 'chronopipe', component : ChronopipeComponent},
+  {path : 'inputoutput', component : InputoutputComponent},
 ];
 
 @NgModule({

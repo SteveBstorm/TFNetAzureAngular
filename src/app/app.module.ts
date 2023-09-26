@@ -17,6 +17,8 @@ import { PipesComponent } from './Demo/pipes/pipes.component';
 import { EurtobtcPipe } from './shared/pipes/eurtobtc.pipe';
 import { ChronopipeComponent } from './Demo/correctif/chronopipe/chronopipe.component';
 import { TotimePipe } from './shared/pipes/totime.pipe';
+import { InputoutputComponent } from './Demo/inputoutput/inputoutput.component';
+import { ChildrenComponent } from './Demo/inputoutput/children/children.component';
 
 
 
@@ -33,7 +35,9 @@ import { TotimePipe } from './shared/pipes/totime.pipe';
     PipesComponent,
     EurtobtcPipe,
     ChronopipeComponent,
-    TotimePipe
+    TotimePipe,
+    InputoutputComponent,
+    ChildrenComponent
 
 
   ],
