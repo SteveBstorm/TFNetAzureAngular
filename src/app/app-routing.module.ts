@@ -7,6 +7,7 @@ import { Exos2Component } from './Demo/Exos/exos2/exos2.component';
 import { TutoComponent } from './Demo/tuto/tuto.component';
 import { Shoppinglistv1Component } from './Demo/correctif/shoppinglistv1/shoppinglistv1.component';
 import { PipesComponent } from './Demo/pipes/pipes.component';
+import { ChronopipeComponent } from './Demo/correctif/chronopipe/chronopipe.component';
 const routes: Routes = [
   { path: "", component: HomeComponent },//Charge le composant
   { path: "Bindings", component: BindingsComponent },
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path : "Exos2", component: Exos2Component},
   {path : "Tuto", component: TutoComponent},
   {path : "shoppingv1", component : Shoppinglistv1Component},
-  {path : 'pipes', component : PipesComponent}
+  {path : 'pipes', component : PipesComponent},
+  {path : 'chronopipe', component : ChronopipeComponent}
 ];
 
 @NgModule({

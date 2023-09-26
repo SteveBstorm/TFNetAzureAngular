@@ -15,6 +15,8 @@ import { TutoComponent } from './Demo/tuto/tuto.component';
 import { Shoppinglistv1Component } from './Demo/correctif/shoppinglistv1/shoppinglistv1.component';
 import { PipesComponent } from './Demo/pipes/pipes.component';
 import { EurtobtcPipe } from './shared/pipes/eurtobtc.pipe';
+import { ChronopipeComponent } from './Demo/correctif/chronopipe/chronopipe.component';
+import { TotimePipe } from './shared/pipes/totime.pipe';
 
 
 
@@ -29,7 +31,9 @@ import { EurtobtcPipe } from './shared/pipes/eurtobtc.pipe';
     TutoComponent,
     Shoppinglistv1Component,
     PipesComponent,
-    EurtobtcPipe
+    EurtobtcPipe,
+    ChronopipeComponent,
+    TotimePipe
 
 
   ],
