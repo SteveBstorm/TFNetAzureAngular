@@ -27,7 +27,7 @@ export class Exos2Component {
     if (this.nouvelArticle.trim() !== '') {
       this.panierCourses.push(this.nouvelArticle);
       this.nouvelArticle = '';
-     
+
     }
   }
   ajouterArticlesSelectionnes() {

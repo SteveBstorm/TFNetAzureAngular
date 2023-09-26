@@ -1,0 +1,30 @@
+.content {
+  padding : 5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftblock {
+  align-items: center;
+  min-width: 25%;
+  max-width: 48%;
+}
+
+.rightblock {
+  padding-left: 3em;
+  align-items: center;
+  max-width: 48%;
+}
+
+.limit {
+  background-color: violet;
+  border-radius: 5px;
+}
+
+.form{
+  margin-bottom: 8%;
+}
+
+.pair {
+  background-color: chartreuse;
+}
